@@ -1,0 +1,30 @@
+simulacion:
+  n_proyectiles: 300
+  v_min: 5.0
+  v_max: 30.0
+  g: 9.8
+  dt: 0.04
+  semilla: 42
+  tipo: ligero
+  metodo: euler
+  salida: animacion
+
+
+visualizacion:
+  trail: 18
+
+
+distribucion: 
+  angulo:
+    tipo: uniforme # uniforme | normal | vonmises
+    media: 90.0
+    sigma: 20.0
+    kappa: 6.0
+  velocidad: 
+   tipo: uniforme # uniforme | normal | exponencial
+   media: 12.0
+   sigma: 4.0
+
+ejecucion:
+  modo: secuencial
+  workers: null
