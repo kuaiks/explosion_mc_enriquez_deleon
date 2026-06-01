@@ -34,8 +34,8 @@ Simulación Monte Carlo de una explosión desde un punto central. Se lanzan **N 
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/kuaiks/explosion_mc_enriquez_deleon
-cd explosion_mc_enriquez_deleon
+git clone https://github.com/kuaiks/explosion_mc_enriquez_deleon_
+cd explosion_mc_enriquez_deleon_
 
 # Ver los comandos del programa
 make help
