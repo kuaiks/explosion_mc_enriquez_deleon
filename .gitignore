@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+.venv*/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Tests y coverage
+.pytest_cache/
+.coverage
+
+# Archivos generados por el proyecto (requeridos por la tarea)
+resultados.csv
+*.png
